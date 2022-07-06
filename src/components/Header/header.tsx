@@ -18,7 +18,7 @@ export default function Header()
                         </li>
                     </ul>
                     <ul>
-                      <li> Market </li>
+                     <li> <Link to={'/Start-collection'}>Market </Link></li>
                         <li><a href="">Sign-in</a></li>
                         <li><Link to={'/User'}><img src={User}></img></Link></li>
                         <li><button className='btnn2'>Connect Wallet</button></li>
