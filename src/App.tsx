@@ -3,7 +3,7 @@
 import './App.css';
 import Header from './components/Header/header';
 import Home from './components/Home/Home';
-import Start from './components/Start-collection/Start-collection';
+import Start from './components/Start-collection/market';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Memories from './components/Start-collection/memories/memories';
 import User from './components/User/User';
@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter> <Header/><Routes>
    
    <Route path='/User' element={<User/>}></Route><Route path='/' element={<Home/>}></Route>
-    <Route path='/Start-collection' element={<Start/>}></Route>
+    <Route path='/market' element={<Start/>}></Route>
     <Route path='/Start-collection/memories/memories' element={<Memories/>}></Route>
     <Route path='/Mint-box' element={<Mintt/>}></Route>
     <Route path='/show-nft' element={<Show/>}></Route>
