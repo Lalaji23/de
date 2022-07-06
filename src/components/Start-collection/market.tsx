@@ -1,6 +1,6 @@
 import './Start.css'
 
-import MainContent from './start-collection-image/Start-collection-image'
+import MainContent from './Start-collection-image/Start-collection-image'
 
 export default function Start() {
   return (
